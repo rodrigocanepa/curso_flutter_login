@@ -1,3 +1,4 @@
+import 'package:curso2/Screens/movies_and_series_screen.dart';
 import 'package:curso2/Screens/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SignUpScreen(),
+      home: MoviesAndSeriesScreen(),
     );
   }
 }

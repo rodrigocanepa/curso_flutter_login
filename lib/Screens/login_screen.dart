@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             _header(),
             const SizedBox(height: 20.0),
-            _formulary()
+            _formulary(),
           ],
         ),
       ),
