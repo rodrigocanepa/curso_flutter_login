@@ -28,7 +28,33 @@ class _MoviesAndSeriesScreenState extends State<MoviesAndSeriesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: _list(),
+      body: Column(
+        children: [
+          Expanded(child: _list()),
+          Row(
+            children: [
+              Expanded(
+                child: Container(
+                  padding: const EdgeInsets.all(15.0),
+                  color: Colors.red,
+                  child: Text(
+                    "Aqui va el contador"
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Container(
+                  padding: const EdgeInsets.all(15.0),
+                  color: Colors.blue,
+                  child: Text(
+                      "Aqui va el boton de reset"
+                  ),
+                ),
+              )
+            ],
+          )
+        ],
+      ),
     );
   }
 

@@ -49,6 +49,12 @@ class _ItemMovieState extends State<ItemMovie> {
                           color: Colors.white
                       ),
                     ),
+                    ElevatedButton(
+                        onPressed: (){},
+                        child: Text(
+                          "Agregar al carrito"
+                        )
+                    )
                   ],
                 ),
               ),

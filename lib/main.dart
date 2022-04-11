@@ -2,7 +2,9 @@ import 'package:curso2/Screens/movies_and_series_screen.dart';
 import 'package:curso2/Screens/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  //await SharedInfo.init();
   runApp(const MyApp());
 }
 
